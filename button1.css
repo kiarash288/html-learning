@@ -1,0 +1,67 @@
+ p{
+        font-family: "Lemonada";
+    
+        
+    }
+    .an{
+        direction: rtl;
+        font-family: Tahoma;
+        font-size: 18px;
+        font-weight: bold;
+        width:250px;
+        line-height: 28px;
+        margin-bottom: 0px;
+        
+
+    }
+    .videostatus{
+        font-family: Tahoma;
+        color:gray;
+        font-size: 28px;
+        margin-top: 0px;
+
+    }
+    .author{
+        font-family: Tahoma;
+        color:gray;
+        font-size: 28px;
+
+    }
+    .tabligh{
+        direction: rtl;
+        line-height: 50px;
+        width:200px;
+        font-family: Tahoma;
+        font-size: 28px;
+        color:gray;
+        text-align: left;
+
+    }
+    .chos{
+        background-color: red;
+        padding: 25px;
+        font-size: 20px;
+        line-height:20px;
+        color:white;
+        border-radius:4px;
+        border-style: solid;
+        text-align: center;
+        
+
+    }
+    .chos:hover{
+        opacity:0.7
+    }
+    .chos:active{
+        transition:color 2s,background-color 2s;
+
+    }
+    .gozz{
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+
+    }
+    .non{
+
+    }

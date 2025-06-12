@@ -1,0 +1,60 @@
+.subscribe  {background-color: rgb(199, 20, 20);
+                color:white;
+                border:none;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-right: 8px;
+                transition: opacity 1s;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+            } .subscribe:hover{
+                opacity:0.8;
+            }  .subscribe:active{
+                opacity:0.5 
+            }
+             .subscribe-button {
+                background-color: white;
+                border-color:rgb(0, 153, 255);
+                border-style:solid;
+                border-width:1px;
+                color:hsl(204, 100%, 50%);
+                cursor: pointer;
+                transition:color 2s , background-color 2s;
+                border-radius: 35px;
+                transition: box-shadow 2s;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                vertical-align: bottom;
+                
+            }
+             
+            .subscribe-button:hover {
+                background-color:rgb(0, 153, 255);
+                color: white;
+                box-shadow:10px 10px 10px rgba(0,0,0,0.6);
+                transition: box-shadow 2s;
+            }
+            .subscribe-button:active{
+                opacity: 0.7;
+            }
+
+            
+            
+            .Tweet{
+                background-color: rgb(0, 102, 255);
+                color:white;
+                border-radius: 35px;
+                border:solid;
+                margin-right: 8px;
+                font-weight: bold;
+                font-size: 15px;
+                cursor:pointer;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
