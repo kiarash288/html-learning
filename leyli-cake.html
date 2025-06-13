@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leyli.Cake | قنادی لی‌لی</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #fff0f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffb6c1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #fff;
+        }
+
+        .banner {
+            width: 100%;
+            height: 300px;
+            background-image: url('https://images.unsplash.com/photo-1604917877933-97bb6f2c675d?auto=format&fit=crop&w=1400&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .about {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            color: #e75480;
+            margin-bottom: 10px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 250px;
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product h3 {
+            text-align: center;
+            padding: 10px;
+            color: #c71585;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffb6c1;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Leyli.Cake</h1>
+        <p>شیرینی‌هایی با طعم عشق ❤️</p>
+    </header>
+
+    <div class="banner"></div>
+
+    <section class="about">
+        <h2>درباره ما</h2>
+        <p>قنادی Leyli.Cake با بیش از ۱۰ سال تجربه، با بهترین مواد اولیه، شیرینی‌هایی تازه و خاص برای شما تهیه می‌کند. جشن تولد، عروسی یا لحظات خاص‌تان را به ما بسپارید!</p>
+    </section>
+
+    <section class="products">
+        <div class="product">
+            <img src="pictures/download (1).jpg" alt="Chocolate Cake">
+            <h3>کیک شکلاتی</h3>
+        </div>
+        <div class="product">
+            <img src="pictures/download (3).jpg" alt="Strawberry Cake">
+            <h3>کیک توت‌فرنگی</h3>
+        </div>
+        <div class="product">
+            <img src="pictures/download (2).jpg" alt="Vanilla Cake">
+            <h3>کیک وانیلی</h3>
+        </div>
+    </section>
+
+    <footer>
+        <p>تمامی حقوق برای Leyli.Cake محفوظ است © 2025</p>
+    </footer>
+
+</body>
+</html>

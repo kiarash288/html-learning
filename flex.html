@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px; /* فاصله بین عکس و متن */
+            margin: 20px;
+            font-family: Tahoma;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover; /* برش تصویر برای گرد شدن درست */
+        }
+
+        .text {
+            display: flex;
+            flex-direction:column;
+            
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .subtitle, .info {
+            color: gray;
+            font-size: 16px;
+            margin: 4px 0;
+        }
+
+        .side-img {
+            margin-top: 20px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- عکس دایره‌ای در سمت چپ -->
+        <img class="profile-img" src="pictures/premium_photo-1681160405618-9a337817402b (1).avif">
+
+        <!-- متن در سمت راست -->
+        <div class="text">
+            <p class="title">How to use MacBook Pro like a professional</p>
+            <p class="subtitle">Mark Blakowich</p>
+            <p class="info">6 months ago · 16k views</p>
+        </div>
+    </div>
+
+    <!-- تصویر دوم -->
+    <img class="side-img" src="pictures/download.jpg">
+
+</body>
+</html>
